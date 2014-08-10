@@ -1,0 +1,8 @@
+# 2014-08-10 Zhou Kai adds ignore pattens
+# start with .
+# start with ~
+# end with ~
+
+.* 
+~* 
+*~ 

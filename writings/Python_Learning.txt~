@@ -1,8 +1,19 @@
 1. == equals to, != not equals to
 2. and or
 3. range(m, n) is from m to n - 1, (n - m) elements in total
-4. string[m : n] is sub string from index m to n - 1, the length of the sub string
-    is (n - m)
-5. 
+4. string[m : n] is sub string from index m to n - 1, the length of the sub
+   string is (n - m)
+5. In order to split up a statement into more than one line, you need to do
+   one of two things:
+   >> Make sure your line break occurs inside parentheses, or
+   >> Use the line-continuation character, which is a backslash, \
+   examples:
+   >>>(2 + 
+   ...3)
+   5
+   >>> 2 + \
+   ...3
+   5
+6. 
 
 

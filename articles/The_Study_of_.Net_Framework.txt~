@@ -1,0 +1,36 @@
+What is the .NET Framework?
+1 The .NET framework is a managed execution environment
+2 The .NET framework consists of two major components:
+  2.1 the common language runtime(CLR), which is the execution engine that 
+    handles running applications;
+  2.2 the .NET Framework Class Library, which provides a library of tested,
+    reusable code that developers can call from their own applications.
+3 The .NET framework provides a variety of services to its running applications
+  3.1 Memory management
+  3.2 A common type system
+  3.3 An extensive class library(FCL)
+  3.4 Applied frameworks and technologies(e.g., ASP.NET, ADO.NET...)
+  3.5 Language interoperability
+
+Overview of the .NET Framework
+4 Features of the Common Language Runtime
+  4.1 The common language runtime manages memory, thread execution, code
+    execution, code safety verification, compilation, and other system
+    services. These features are intrinsic to the managed code that runs
+    on the common language runtime.
+  4.2 The runtime enforces code access security.
+  4.3 The runtime enforces code robustness by implementing a strict type-and-
+    code-verification infrastructure called the common type system(CTS). The
+    CTS ensures that all managed code is self-describing.
+  4.4 Interoperability between managed and unmanaged code enables developers to
+    continue to use necessary COM components and DLLs.
+  4.5 The runtime is designed to enhance performance. A feature called just-
+    in-time(JIT) compiling enables all managed code to run in the native 
+    machine language of the system on which it is executing. Meanwhile, the
+    memory manager removes the possibilities of fragmented memory and increase
+    memory locality-of-reference to further increase performance. 
+5 .NET Framework Class Library
+  5.1 The .NET Framework class library is a collection of reuseable types that
+    tightly integrate with the common language runtime. The class library is 
+    object oriented, providing types from which your own managed code can de-
+    rive functionality.
